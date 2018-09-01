@@ -20,4 +20,6 @@ public class SAP_HW_1 {
         }
         System.out.println(exit);
     }
+
 }
+
