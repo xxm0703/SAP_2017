@@ -1,7 +1,5 @@
 package Day_1_Java;
 
-import jdk.nashorn.internal.runtime.NumberToString;
-
 import java.util.Scanner;
 
 public class SAP_2 {
@@ -28,6 +26,6 @@ public class SAP_2 {
             System.out.print(list[i]+" "+ k);
             if(i<index-1) System.out.print(" ");
         }
-        System.out.println("");
+        System.out.println();
     }
 }

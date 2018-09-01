@@ -1,7 +1,7 @@
 package Day_1_Java;
 
 import java.util.Scanner;
-
+// Longest repeatable sequence
 public class SAP_3 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

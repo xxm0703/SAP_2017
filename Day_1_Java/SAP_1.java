@@ -1,5 +1,7 @@
 package Day_1_Java;
 
+// No duplicate chars in a string
+
 import java.util.Scanner;
 public class SAP_1 {
 
