@@ -1,9 +1,10 @@
-package Day_1_Java;
+//package Day_1_Java;
 
 import java.util.Scanner;
+
 // Longest repeatable sequence
 public class SAP_3 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         char[] c = s.toCharArray();
@@ -11,10 +12,10 @@ public class SAP_3 {
         for (int i = 0; i < c.length; i++) {
             lo = 0;
             for (int j = i; j < c.length; j++) {
-                if(c[i] == c[j]) lo++;
+                if (c[i] == c[j]) lo++;
                 else break;
             }
-            if(lo > max) max = lo;
+            if (lo > max) max = lo;
         }
         System.out.println(max);
     }

@@ -1,4 +1,4 @@
-package Day_1_Java;
+//package Day_1_Java;
 
 // No duplicate chars in a string
 
