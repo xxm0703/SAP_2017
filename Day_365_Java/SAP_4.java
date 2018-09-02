@@ -1,4 +1,4 @@
-//package Day_365_Java;
+package Day_365_Java;
 
 import java.util.Scanner;
 
